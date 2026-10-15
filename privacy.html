@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tcleaner 隐私政策 · Privacy Policy</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><img src="icon.png" alt=""><h1>Tcleaner 隐私政策</h1></header>
+<p class="muted">生效日期：2026 年 10 月 15 日</p>
+<nav><a href="index.html">技术支持</a><a href="#english">English</a></nav>
+
+<div class="card"><strong>简而言之：Tcleaner 不收集、不上传任何数据。</strong>它没有网络访问权限，所有扫描和清理都只在你的 Mac 上进行。</div>
+
+<h2>我们收集的数据</h2>
+<p>无。Tcleaner 不包含任何统计分析、广告或第三方 SDK，也没有申请网络访问权限，因此无法把任何信息发送出你的 Mac。</p>
+
+<h2>Tcleaner 在本机读取什么</h2>
+<ul>
+<li>你授权的文件夹（默认是个人文件夹）中文件和文件夹的名称、大小和日期，用于计算可以释放的空间。</li>
+<li>少量很小的元数据文件，用于判断哪些内容可以安全删除，例如模型版本指针、<code>package.json</code> 中的项目名、<code>pyvenv.cfg</code> 中的 Python 版本。</li>
+<li>只有在你主动开启“包含聊天软件”后，才会读取微信、QQ 等应用沙盒中的目录结构和文件大小；macOS 会先询问你是否允许。Tcleaner 不会读取聊天内容，也永远不会删除聊天记录数据库。</li>
+<li>查找重复文件时，会在本机计算文件内容的哈希值来比较是否相同；哈希值不会被保存或发送。</li>
+</ul>
+<p>Tcleaner 不会打开或读取你的文档、照片、邮件或聊天内容。</p>
+
+<h2>Tcleaner 在本机保存什么</h2>
+<p>你的设置和文件夹访问授权（安全作用域书签）保存在 Tcleaner 自己的沙盒容器中。删除 Tcleaner 后，可在“访达”中删除 <code>~/Library/Containers/com.tcleaner.app</code> 以清除这些数据。</p>
+
+<h2>删除文件</h2>
+<p>Tcleaner 只删除你确认过的项目。可自动重建的缓存会被直接删除；个人文件（下载、重复文件、模型检查点、聊天中的旧媒体等）会移到废纸篓，你可以随时恢复。</p>
+
+<h2>儿童隐私</h2>
+<p>Tcleaner 不收集任何人的数据，包括儿童。</p>
+
+<h2>政策变更与联系方式</h2>
+<p>如本政策有变更，会在此页面更新并注明生效日期。有任何问题，请在 <a href="https://github.com/leixyou/tcleaner-site/issues">GitHub Issues</a> 中提出。</p>
+
+<hr id="english">
+
+<h1>Tcleaner Privacy Policy</h1>
+<p class="muted">Effective October 15, 2026</p>
+<div class="card"><strong>In short: Tcleaner collects nothing and sends nothing.</strong> It has no network access; all scanning and cleaning happen on your Mac.</div>
+
+<h2>Data we collect</h2>
+<p>None. Tcleaner contains no analytics, advertising or third-party SDKs and does not request network access, so it cannot send any information off your Mac.</p>
+
+<h2>What Tcleaner reads on your Mac</h2>
+<ul>
+<li>Names, sizes and dates of files and folders in the folders you grant (your home folder by default), to calculate how much space can be freed.</li>
+<li>A few tiny metadata files that tell what is safe to remove, such as model revision pointers, the project name in <code>package.json</code> or the Python version in <code>pyvenv.cfg</code>.</li>
+<li>Only after you turn on “Include chat apps”: the folder structure and file sizes inside the sandbox of apps such as WeChat and QQ. macOS asks for your permission first. Tcleaner never reads chat content and never removes chat history databases.</li>
+<li>When finding duplicates, hashes of file contents are computed locally to compare files. They are not stored or sent anywhere.</li>
+</ul>
+<p>Tcleaner does not open or read your documents, photos, mail or chats.</p>
+
+<h2>What Tcleaner stores on your Mac</h2>
+<p>Your settings and folder-access grants (security-scoped bookmarks) are kept in Tcleaner's own sandbox container. After deleting Tcleaner you can remove <code>~/Library/Containers/com.tcleaner.app</code> in Finder to erase them.</p>
+
+<h2>Removing files</h2>
+<p>Tcleaner only removes items you confirm. Caches that rebuild automatically are deleted; personal files (downloads, duplicates, training checkpoints, old chat media and so on) are moved to the Trash so you can restore them.</p>
+
+<h2>Children</h2>
+<p>Tcleaner collects no data from anyone, including children.</p>
+
+<h2>Changes and contact</h2>
+<p>Changes to this policy will be posted on this page with a new effective date. Questions are welcome in <a href="https://github.com/leixyou/tcleaner-site/issues">GitHub Issues</a>.</p>
+</main>
+</body>
+</html>
